@@ -34,10 +34,8 @@ jobs:
       - name: Build web application
         run: npm run build
 
-      - name: Add and Sync Android Platform
-        run: |
-          npx @capacitor/cli add android
-          npx @capacitor/cli sync android
+      - name: Sync Capacitor
+        run: npx @capacitor/cli sync android
 
       - name: Build Debug APK
         run: |
