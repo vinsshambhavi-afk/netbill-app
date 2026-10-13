@@ -1,0 +1,8 @@
+{
+  "appId": "com.netbill.app",
+  "appName": "NetBill ISP",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
